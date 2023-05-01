@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CalculatorServiceImpl implements CalculatorService {
     public String hello() {
-        return "Добро пожаловать в калькулятор 3";
+        return "Добро пожаловать в калькулятор";
     }
 
     public String sum(int num1, int num2) {
